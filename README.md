@@ -14,27 +14,27 @@ The option is priced on a normalized index scale. Because the indices have diffe
 
 ## Financial instrument
 
-For a basket of assets \(S_1, S_2, ..., S_n\), the terminal worst-of value is:
+For a basket of assets $S_1, S_2, \ldots, S_n$, the terminal worst-of value is:
 
-\[
-Worst_T = \min(S_1(T), S_2(T), ..., S_n(T))
-\]
+$$
+Worst_T = \min(S_1(T), S_2(T), \ldots, S_n(T))
+$$
 
 The payoff is:
 
-\[
+$$
 Call = \max(Worst_T - K, 0)
-\]
+$$
 
-\[
+$$
 Put = \max(K - Worst_T, 0)
-\]
+$$
 
 In the base setup, the option is at-the-money on the normalized scale:
 
-\[
+$$
 S_i(0) = 100, \quad K = 100
-\]
+$$
 
 ## Methodology
 
